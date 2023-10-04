@@ -35,7 +35,7 @@ pycparser==2.21
 PyJWT==1.7.1
 pyscopg2==66.0.2
 python-dateutil==2.8.2
-python-dotenv==1.0.0
+python-dotenv==0.21.1
 python-jose==3.3.0
 rfc3986==1.5.0
 rsa==4.9
