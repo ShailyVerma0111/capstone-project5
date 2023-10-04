@@ -9,7 +9,7 @@ colorama==0.4.6
 cryptography==41.0.3
 ecdsa==0.18.0
 encode==0.0.0
-Flask==2.3.2
+Flask==2.2.5
 Flask-Cors==4.0.0
 Flask-Migrate==4.0.4
 Flask-Moment==1.0.5
