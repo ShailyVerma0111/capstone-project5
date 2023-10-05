@@ -7,7 +7,7 @@ if database_path.startswith("postgres://"):
   database_path = database_path.replace("postgres://", "postgresql://", 1)
 
 """ database_name = 'capstone'
-database_path = 'postgresql://{}:{}@{}/{}'.format('postgres','postgres','localhost:5432', database_name) """
+database_path = 'postgresql://{}:{}@{}/{}'.format('postgres','postgres','localhost:5432', database_name)"""
 
 db = SQLAlchemy()
 
