@@ -84,6 +84,13 @@ The API will return three error types when requests fail:
 - 403: Permission not found.
 
 ### Endpoints 
+#### sample curl get request for application hosted on render:
+```
+curl --request GET \
+     --url 'https://capstone-app-deployment.onrender.com/movies' \
+     --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImFTWWlmZlg1SWNzbnZ1MllUNTNaaCJ9.eyJpc3MiOiJodHRwczovL2NvZmZlZS1jYWZlLXNob3AudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDY1MTMwYWFiMjA1ZTBmNjQwMWU0Yjc3YiIsImF1ZCI6IkNhcFN0b25lIiwiaWF0IjoxNjk2NTA4MjI0LCJleHAiOjE2OTY1OTQ2MjQsImF6cCI6IlFmSml6TmxWQkFERHlweFR4ampkTm9BdER1ckZhQ3BDIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6YWN0b3IiLCJkZWxldGU6bW92aWUiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9yIiwicGF0Y2g6bW92aWUiLCJwb3N0OmFjdG9yIiwicG9zdDptb3ZpZSJdfQ.fQq2cwaoVun0eEtxqbYfdSsPTMmkAYFXs3w-hPR-ir_1xqQIJRE8xEx86L2qNYYVQh1lQViBS2dnJAc1Pa7Ii0sukZCayfdN2wuxgPlPfb6lvS_SkjMRkTIwlIV_fnPqq5-ypiSqk0mvTxSjUsYKWSkvv2J92hP6u4xpEU4NHY5aew9X349ndU2JB_ReFkRMKEKYhzIggqGi33aANa6UJ0SBoJWTfNw1hYncJA78htRJ7wTmzQfQ_M29usQ7c5MFTTtWNrAeSlwUKzzS4bSx0OFUL1KiS0eba51OtOVtvhbVxKl_D6phe4v-XLu6wic9s5rxwcWrU16Ef0jouqsA-g'
+```
+
 #### GET /movies
 - General:
     - Returns a list of movies, success value, and total number of movies 
